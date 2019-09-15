@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './Projects.css';
+import { ProjectListing } from './projects-styled';
 
 const Projects = () => {
   return (
     <div>
-      <div className='projectlisting'></div>
+      <ProjectListing></ProjectListing>
       <p> Projects Test</p>
     </div>
   );

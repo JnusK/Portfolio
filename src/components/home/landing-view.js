@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainView, MainText, TagLine } from './Home-styled';
+import { MainView, MainText, TagLine } from './home-styled';
 
 const LandingView = () => {
   const tagline = ['Explore', 'Learn', 'Build'];

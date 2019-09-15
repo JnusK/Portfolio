@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Navigation from './components/common/Navigation';
-import Home from './components/home/Home';
-import Projects from './components/projects/Projects';
-import Contacts from './components/contacts/Contacts';
-import Footer from './components/common/Footer';
-import Travels from './components/travels/Travels';
-import ScrollTop from './components/common/ScrollTop';
-import { MainApp } from './components/common/Main-styled';
+import Navigation from './components/common/navigation';
+import Home from './components/home/home';
+import Projects from './components/projects/projects';
+import Contacts from './components/contacts/contacts';
+import Footer from './components/common/footer';
+import Travels from './components/travels/travels';
+import ScrollTop from './components/common/scroll-top';
+import { MainApp } from './components/common/main-styled';
 
 const App = () => {
   return (

@@ -11,7 +11,7 @@ export const NavFooter = styled.div`
 
 export const Copyright = styled.small`
   position: absolute;
-  right: 50px;
+  right: 10px;
   bottom: 0px;
 `;
 
@@ -20,45 +20,62 @@ export const IconLink = styled.a`
 `;
 
 export const NavHeader = styled.div`
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-space-between;
   background-color: black;
-  align-items: center;
-  padding-right: 10px;
-  padding-left: 10px;
+  align-items: stretch;
+  height: 7vh;
 `;
 
 export const Logo = styled.img`
-  width: 20px;
-  height: 30px;
+  width: 30px;
+  height: 45px;
+  text-decoration: none;
+  vertical-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
 `;
 
-export const NavLinks = styled.ul`
+export const NavTabs = styled.div`
   list-style: none;
-  height: 100%;
-  display: flex;
+  display: grid;
+  grid-column-gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+  height: auto;
+  margin-left: 50px;
 
-  li {
-    display: inline-block;
-    margin-right: 8px;
-    color: grey;
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    grid-row: 1;
+    align-items: center;
 
 
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .navchoice:hover {
+    :hover {
       border: 1px solid white;
       background-colour: #0ff;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
     }
 
-    .curnav.active {
-      font-weight: bold;
+    .active {
       background-color: #c1c4c9;
+
+      div {
+        font-weight: bold;
+      }
+    }
+
+    div {
+      margin: auto;
     }
   }
 `;

@@ -5,6 +5,7 @@ export const MainView = styled.div`
   text-align: center;
   margin-top: 0;
   background-size: cover;
+  height: 93vh;
 `;
 
 export const MainText = styled.div`
