@@ -1,28 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Navigation from './components/common/Navigation';
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+import Contacts from './components/contacts/Contacts';
+import Footer from './components/common/Footer';
+import Travels from './components/travels/Travels';
+import ScrollTop from './components/common/ScrollTop';
+import { MainApp } from './components/common/Main-styled';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <BrowserRouter>
+      <MainApp>
+        <Navigation />
+        <Route exact path="/" component={ Home }/>
+        {/*OR use the one below to pass props into the component*/}
+        {/* <Route exact path="/" render={() => <Home lpTitle="Janus Kiong" />}/> */}
+        <Route path="/projects" component={ Projects }/>
+        <Route path="/contacts" component={ Contacts }/>
+        <Route path='/travels' component={ Travels } />
+        <Footer />
+        <ScrollTop />
+      </MainApp>
+    </BrowserRouter>
+  );
 }
 
 export default App;
