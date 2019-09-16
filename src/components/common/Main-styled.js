@@ -77,6 +77,7 @@ export const NavTabs = styled.div`
     div {
       margin: auto;
     }
+
   }
 `;
 
