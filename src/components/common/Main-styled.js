@@ -29,6 +29,7 @@ export const NavHeader = styled.div`
   background-color: black;
   align-items: stretch;
   height: 7vh;
+  z-index: 5;
 `;
 
 export const Logo = styled.img`
@@ -46,9 +47,9 @@ export const NavTabs = styled.div`
   list-style: none;
   display: grid;
   grid-column-gap: 10px;
-  justify-items: stretch;
   align-items: stretch;
   height: auto;
+  margin: auto;
   margin-left: 50px;
 
   a {
@@ -56,28 +57,17 @@ export const NavTabs = styled.div`
     color: white;
     padding: 2px;
     grid-row: 1;
-    align-items: center;
-
+    text-transform: capitalize;
 
     :hover {
-      border: 1px solid white;
-      background-colour: #0ff;
+      font-weight: bold;
+      color: #0ff;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
     }
-
-    .active {
-      background-color: #c1c4c9;
-
-      div {
-        font-weight: bold;
-      }
-    }
-
-    div {
-      margin: auto;
-    }
-
+  }
+  a.active {
+    font-weight: bold;
   }
 `;
 

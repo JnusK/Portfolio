@@ -1,16 +1,18 @@
 import React from 'react';
 import LandingView from './landing-view';
-import ProjectsLandingView from './projects-landing-view';
+import TechLandingView from './tech-landing-view';
 import About from './../about/about';
+import TravelLandingView from './travel-landing-view';
 
 const Home = () => {
   return (
     <div>
       <LandingView />
-      <ProjectsLandingView />
+      <TechLandingView />
       <About />
+      <TravelLandingView />
     </div>
   );
-}
+};
 
 export default Home;

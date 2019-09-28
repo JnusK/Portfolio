@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavFooter, IconLink, Copyright } from './Main-styled';
+import { NavFooter, IconLink, Copyright } from './main-styled';
 
 const Footer = () => {
   const iconList = [
@@ -29,6 +29,6 @@ const Footer = () => {
       <Copyright>&copy; Copyright {(new Date()).getFullYear()}, Janus Kiong Yan Cong</Copyright>
     </NavFooter>
   );
-}
+};
 
 export default Footer;

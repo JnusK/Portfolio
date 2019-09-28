@@ -2,11 +2,12 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Navigation from './components/common/navigation';
 import Home from './components/home/home';
-import Projects from './components/projects/projects';
-import Contacts from './components/contacts/contacts';
+import Tech from './components/tech/tech';
+import Contact from './components/contact/contact';
 import Footer from './components/common/footer';
-import Travels from './components/travels/travels';
+import Travel from './components/travel/travel';
 import ScrollTop from './components/common/scroll-top';
+import TravelBlog from "./components/travel/travel-blog";
 import { MainApp } from './components/common/main-styled';
 
 const App = () => {
@@ -14,17 +15,16 @@ const App = () => {
     <BrowserRouter>
       <MainApp>
         <Navigation />
-        <Route exact path="/" component={ Home }/>
-        {/*OR use the one below to pass props into the component*/}
-        {/* <Route exact path="/" render={() => <Home lpTitle="Janus Kiong" />}/> */}
-        <Route path="/projects" component={ Projects }/>
-        <Route path="/contacts" component={ Contacts }/>
-        <Route path='/travels' component={ Travels } />
+        <Route exact path="/" component={ Home } />
+        <Route path="/tech" component={ Tech } />
+        <Route path="/contact" component={ Contact } />
+        <Route exact path='/travel' component={ Travel } />
+        <Route path='/travel/:year/:trip' component={TravelBlog} />
         <Footer />
         <ScrollTop />
       </MainApp>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

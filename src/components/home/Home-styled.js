@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
-export const MainView = styled.div`
+const LandingContainer = styled.div`
+  height: 93vh;
+  width: 100%;
+`;
+
+export const MainView = styled(LandingContainer)`
   margin: 0;
   text-align: center;
   margin-top: 0;
   background-size: cover;
-  height: 93vh;
+
 `;
 
 export const MainText = styled.div`
@@ -23,4 +28,8 @@ export const TagLine = styled.div`
   color: #6d6d7a;
   font-size: 30px;
   margin: 10px;
+`;
+
+export const TravelLandingViewContainer = styled(LandingContainer)`
+
 `;
