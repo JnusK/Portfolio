@@ -16,7 +16,6 @@ const Navigation = () => {
           return (
             <NavLink to={'/' + section} key={index}>
               {section}
-              {/* <div className="navchoice" key={index}>{section}</div> */}
             </NavLink>
           );
         })}

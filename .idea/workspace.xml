@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587473bb-118f-4dce-a1cd-fd9ee2629009" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/carousel-styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/travel/travel-blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/img/lake-bled.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/img/peyto-lake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/img/shifen-waterfall.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tech/tech-blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/waterfall-pericnik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About-styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Main-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Main-styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/scroll-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/scroll-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home-styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/projects-landing-view.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projects-styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/travels/Travels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/travels/travels-styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/waterfall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/carousel-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/carousel-styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/travel/travel-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/travel/travel-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/travel/travel-list.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +63,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559712525280</updated>
-      <workItem from="1569640126830" duration="16386000" />
+      <workItem from="1569640126830" duration="16938000" />
+      <workItem from="1569723887969" duration="9183000" />
+      <workItem from="1569764740839" duration="3159000" />
     </task>
+    <task id="LOCAL-00001" summary="Created carousel">
+      <created>1569686866662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569686866662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -98,5 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created carousel" />
   </component>
 </project>
