@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {NavLink} from "react-router-dom";
 
 export const BlogContainer = styled.div`
   width: calc(100% - 40px);
@@ -28,15 +27,16 @@ export const BlogHeader = styled.div`
   background-color: white;
 `;
 
-export const BackLink = styled(NavLink)`
+export const BackLink = styled.div`
   display: inline-block;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
 `;
 
 export const BlogTitle = styled.h1`
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 40vw;
+  margin-left: 50px;
   text-transform: capitalize;
 `;

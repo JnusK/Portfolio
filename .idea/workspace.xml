@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="587473bb-118f-4dce-a1cd-fd9ee2629009" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/travel/travel-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/travel/travel-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/travel/travel-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/travel/travel-list.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,7 @@
       <workItem from="1569931404788" duration="1792000" />
       <workItem from="1570263274402" duration="7971000" />
       <workItem from="1570330229532" duration="10417000" />
-      <workItem from="1570862420347" duration="9202000" />
+      <workItem from="1570862420347" duration="10366000" />
     </task>
     <task id="LOCAL-00001" summary="Created carousel">
       <created>1569686866662</created>
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570887903597</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update content and styling for travel">
+      <created>1570892810100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570892810100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +123,7 @@
     <MESSAGE value="Created carousel" />
     <MESSAGE value="Added React Markdown to load blog posts" />
     <MESSAGE value="Update content and styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update content and styling" />
+    <MESSAGE value="Update content and styling for travel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update content and styling for travel" />
   </component>
 </project>

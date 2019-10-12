@@ -9,9 +9,9 @@ const About = () => {
         <ProfilePicture src={profilePic} alt="Profile" />
       </WrapperCol>
       <WrapperCol>
-        <p>I am Janus Kiong, a software developer currently working for Credit Suisse. My interest in coding is mainly towards full stack development and machine learning.</p>
-        <p>I believe that life is about new experiences while building on past knowledge.</p>
-        <p>When not working, I am usually traveling, reading or playing computer games.</p>
+        <p>I am Janus Kiong, a software developer currently working for Credit Suisse. I graduated from Nanyang Technological University with a Bachelors of Engineering Science (Computer Science) and a Masters of Science in Technology Management</p>
+        <p>My interest in coding is mainly towards full stack development and machine learning.</p>
+        <p>When not working, I am usually traveling, reading, cooking or playing computer games.</p>
       </WrapperCol>
 
     </AboutContainer>

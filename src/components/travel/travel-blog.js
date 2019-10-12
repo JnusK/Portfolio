@@ -2,15 +2,16 @@ import React from 'react';
 import ReactMarkdown from "react-markdown";
 import {TravelList} from './../../resources/travel/travel-list';
 import {BackLink, BlogContainer, BlogHeader, BlogTitle, ContentContainer} from "./travel-styled";
+import {NavLink} from "react-router-dom";
 
 const TravelBlog = ({match}) => {
 
   return (
     <BlogContainer>
       <BlogHeader>
-        <BackLink exact to='/travel'>
-          <div className="fas fa-chevron-left fa-border" />
-        </BackLink>
+        <NavLink exact to='/travel'>
+          <BackLink className="fas fa-chevron-left fa-border fa-2x" />
+        </NavLink>
         <BlogTitle>{match.params.trip}</BlogTitle>
       </BlogHeader>
       <ContentContainer>
