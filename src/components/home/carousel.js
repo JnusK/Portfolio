@@ -38,7 +38,10 @@ const Carousel = ({ interval, components }) => {
       <PreviousCarouselButton className="fas fa-chevron-left fa-border fa-2x" onClick={previousTile} />
       {components.map((comp, index) => {
         if (index === carouselIndex) {
-          return (<Link to={comp.link} ><img src={comp.image} alt={comp.location} key={index} /></Link>);
+          return (
+            <Link to={comp.link} >
+              <img src={comp.image} alt={comp.location} key={index} />
+            </Link>);
         }
         else {
           return null;

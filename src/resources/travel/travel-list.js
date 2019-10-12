@@ -63,8 +63,12 @@ PS: The trail is slippery near the waterfall and crampons are recommended as the
 
 Ljubljana was the last minute replacement as I cut my time short at Lake Bohinj due to the lack of snow. 
 We found an airbnb near the train station, which is walkable to the old town where all the tourist attractions are. 
-The old town i so compact that 1 full day allowed us to explore most of the attractions there. 
+The evening on the day we arrived, we took a stroll to Metelkova Art Center to see the weird and wonderful sculptures and graffiti.
+Before the sun sets, this area is a quiet place where only a few tourists are walking around gawking at the alternative art pieces. 
+It is a worthy place to spend an hour while waiting for a train or a inter-city bus.
+
 We started off the day walking around the Central Market, which is a farmer's market selling fresh food and groceries. 
+The old town was so compact that 1 full day allowed us to explore most of the attractions there. 
 That was not the best idea as I had to lug a jar of honey with me for the rest of the day.
 
 I would recommend Ljubljana Castle, the castle that is situated at the top of a hill overlooking the old town. 

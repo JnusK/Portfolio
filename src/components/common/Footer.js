@@ -9,11 +9,11 @@ const Footer = () => {
     },
     {
       icon: 'fab fa-linkedin fa-2x',
-      tolink: 'https://www.linkedin.com/in/januskiong/'
+      tolink: 'https://www.linkedin.com/in/januskiong/',
     },
     {
       icon: 'fab fa-github-square fa-2x',
-      tolink: 'https://github.com/JnusK'
+      tolink: 'https://github.com/JnusK',
     }
   ];
 
@@ -22,7 +22,7 @@ const Footer = () => {
       {iconList.map((icon, index) => {
         return (
           <IconLink href={icon.tolink} key={index}>
-            <span className={icon.icon} key={index}></span>
+            <svg className={icon.icon} key={index} />
           </IconLink>
         )
       })}
