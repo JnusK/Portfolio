@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587473bb-118f-4dce-a1cd-fd9ee2629009" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tech/tech-blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/img/waterfall-pericnik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/travel-img.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/carousel-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/carousel-styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/travel/travel-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/travel/travel-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/travel/2019-slovenia.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/travel/travel-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/travel/travel-list.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +61,11 @@
       <updated>1559712525280</updated>
       <workItem from="1569640126830" duration="16938000" />
       <workItem from="1569723887969" duration="9183000" />
-      <workItem from="1569764740839" duration="3159000" />
+      <workItem from="1569764740839" duration="3321000" />
+      <workItem from="1569931404788" duration="1792000" />
+      <workItem from="1570263274402" duration="7971000" />
+      <workItem from="1570330229532" duration="10417000" />
+      <workItem from="1570862420347" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="Created carousel">
       <created>1569686866662</created>
@@ -74,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569686866662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added React Markdown to load blog posts">
+      <created>1569769198991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569769198991</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added React Markdown to load blog posts">
+      <created>1570332044794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570332044794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created carousel" />
+    <MESSAGE value="Added React Markdown to load blog posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added React Markdown to load blog posts" />
   </component>
 </project>
