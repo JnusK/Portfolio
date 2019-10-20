@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from "react-markdown";
+import PropTypes from 'prop-types';
 import {TravelList} from './../../resources/travel/travel-list';
 import {BackLink, BlogContainer, BlogHeader, BlogTitle, ContentContainer} from "./travel-styled";
 import {NavLink} from "react-router-dom";
@@ -24,6 +25,10 @@ const TravelBlog = ({match}) => {
       </ContentContainer>
     </BlogContainer>
   );
+};
+
+TravelBlog.propTypes = {
+  match: PropTypes.object,
 };
 
 export default TravelBlog;

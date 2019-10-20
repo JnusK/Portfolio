@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587473bb-118f-4dce-a1cd-fd9ee2629009" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/tech/catnip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/catnip-brainstorm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/catnip-layouts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/catnip-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/catnip-prototype.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/catnip-team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/img/tech-img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tech/tech-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tech/tech-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tech/tech-blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tech/tech-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tech/tech-styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/travel/travel-blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/travel/travel-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/travel/travel-styled.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +71,10 @@
       <workItem from="1569931404788" duration="1792000" />
       <workItem from="1570263274402" duration="7971000" />
       <workItem from="1570330229532" duration="10417000" />
-      <workItem from="1570862420347" duration="10366000" />
+      <workItem from="1570862420347" duration="10441000" />
+      <workItem from="1570966069562" duration="599000" />
+      <workItem from="1570972650649" duration="2653000" />
+      <workItem from="1571543537031" duration="7155000" />
     </task>
     <task id="LOCAL-00001" summary="Created carousel">
       <created>1569686866662</created>
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570892810100</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix header leaving a gap at top of container">
+      <created>1570894525398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570894525398</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +143,7 @@
     <MESSAGE value="Added React Markdown to load blog posts" />
     <MESSAGE value="Update content and styling" />
     <MESSAGE value="Update content and styling for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update content and styling for travel" />
+    <MESSAGE value="Fix header leaving a gap at top of container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix header leaving a gap at top of container" />
   </component>
 </project>
